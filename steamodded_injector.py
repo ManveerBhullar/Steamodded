@@ -151,7 +151,7 @@ if os.name == 'posix':
         command = "7z"  # Update this path as necessary for macOS
     else:
         # This is Linux or another POSIX-compliant OS
-        command = "7zz"
+        command = "7z"
 else:
     # This is for Windows
     command = f"{seven_zip_dir.name}/7z.exe"
