@@ -138,8 +138,8 @@ python steamodded_injector.py ~/Library/Application\ Support/Steam/steamapps/com
   - Windows: `cd C:\Users\<USER>\AppData\Roaming\Balatro\Mods` or `cd %appdata%\Balatro\Mods`
   - Linux: `cd /home/$USER/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods`
   - macOS: `cd ~/Library/Application Support/Balatro/mods`
-- Place the mod files in the directory.
-- ```
+- Place the mod files in the `mod` directory, like below:
+```
   mods/
   |-- rng_poker_mod.love
   |-- card_deck_mod.love
